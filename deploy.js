@@ -3,7 +3,10 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  "clown chronic distance jacket skirt expose city tuition provide feed satisfy tonight",
+  // ==============================================================
+  // =========== Enter your 12 word mneumonic on the following line
+  // ==============================================================
+  "",
   "https://rinkeby.infura.io/jphU0izevckhZcphZulo"
 );
 
